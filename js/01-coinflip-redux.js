@@ -5,9 +5,9 @@ var choice = prompt ("Enter number of flipping");
 for (i =  1; i <= choice; i+= 1) {
     var coinFlip = Math.floor(Math.random() * 2);
     if (coinFlip === 0) {
-        document.write("Heads");
+        document.write("Heads" + "<br>");
  
     } if (coinFlip === 1) {
-        document.write("Tails");
+        document.write("Tails" + "<br>");
 }
 }
