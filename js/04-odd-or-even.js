@@ -8,4 +8,4 @@ var number = 0;
  while (number <= 15) {
     number+= 1;
     document.write("odd" +number+ "<br>");
-}
+} 
