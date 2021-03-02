@@ -8,8 +8,5 @@ var coinFlip;
     } if (coinFlip === 1) {
         document.write("Tails" + "<br>");
  }
-} while (coinFlip === 1);
+} while (coinFlip === 0);
 
-
-
-/*var coinFlip = Math.round(Math.random()) +1;*/
